@@ -30,14 +30,18 @@ This repository may include:
 
 ## Suggested structure
 
-```text
+```
 /
 ├── README.md
 ├── /material-passports
-├── /assets
-├── /notes
-├── /references
+    ├── Material 1
+        ├── Passport files
+        ├── Assets
+    ├── Material 2
+        ├── ...
 └── /templates
+```
+
 How to use this repository
 
 Add each material passport in a consistent format.

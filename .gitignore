@@ -1,0 +1,72 @@
+# Build output files
+*.elf
+*.hex
+*.bin
+*.map
+
+# Object files
+*.o
+*.d
+*.a
+
+# Build directories
+build/
+_build/
+Debug/
+Release/
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
+*~
+*.log
+
+# PlatformIO
+.pio/
+.vscode/
+
+# Agentic / development tooling (not for public repo)
+AGENTS.md
+docs/agents/
+skills/
+.scratch/
+.claude-plugin/
+.agents/
+
+# Doxygen generated output (CI builds and deploys via GitHub Pages)
+docs/doxygen/
+
+# Arduino
+preproc/
+scratch/
+deprecation_issues.txt
+function_signature_hash.txt
+*.ino.map
+
+# Eclipse
+.settings/
+
+# CLion
+cmake-build-*/
+cmake-build-*/
+
+# STM32CubeIDE
+/Debug/
+/Release/
